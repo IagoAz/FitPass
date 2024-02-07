@@ -39,6 +39,9 @@
   </a>
 </p>
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<a name="preview"></a>
+
 ## 🔨 Built with
 
 * [![PHP][PHP.com]][PHP-url]
@@ -49,12 +52,14 @@
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+<a name="built-with"></a>
 
 ## 🔑 Key Features
 
 * ...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+<a name="key-features"></a>
 
 ## 📑 How To Use
 
@@ -65,6 +70,7 @@
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+<a name="how-to-use"></a>
 
 ## 🎞️ Credits
 
@@ -77,12 +83,14 @@
 - [@NicolasSSantos](https://github.com/NicolasSSantos)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+<a name="credits"></a>
 
 ## ✅ License
 
 This project is under license GPL-3.0 license - see the [LICENSE](https://github.com/IagoAz/FitPass/blob/main/LICENSE) file for details.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+<a name="license"></a>
 
 ---
 
