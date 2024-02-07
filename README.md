@@ -31,7 +31,7 @@
 
 <!-- PREVIEW AND FIGMA -->
 
-## 📌 Preview
+## 📌 Preview <a name="preview"></a>
 
 <p align="center">
   <a href="https://www.figma.com/file/aukjmm6YwIdGzfN5N8KqU1/FitPass-Desing?type=design&node-id=0%3A1&mode=design&t=A8i1iF70CSJYO8st-1" target="_blank" style="display: inline-block; text-align: center;">
@@ -40,9 +40,9 @@
 </p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-<a name="preview"></a>
 
-## 🔨 Built with
+
+## 🔨 Built with <a name="built-with"></a>
 
 * [![PHP][PHP.com]][PHP-url]
 * [![HTML][HTML.com]][HTML-url]
@@ -52,16 +52,16 @@
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-<a name="built-with"></a>
 
-## 🔑 Key Features
+
+## 🔑 Key Features <a name="key-features"></a>
 
 * ...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-<a name="key-features"></a>
 
-## 📑 How To Use
+
+## 📑 How To Use <a name="how-to-use"></a>
 
 [Working]
 
@@ -70,9 +70,9 @@
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-<a name="how-to-use"></a>
 
-## 🎞️ Credits
+
+## 🎞️ Credits <a name="credits"></a>
 
 - [@IagoAz](https://github.com/IagoAz)
 - [@Luiz]()
@@ -83,14 +83,14 @@
 - [@NicolasSSantos](https://github.com/NicolasSSantos)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-<a name="credits"></a>
 
-## ✅ License
+
+## ✅ License <a name="license"></a>
 
 This project is under license GPL-3.0 license - see the [LICENSE](https://github.com/IagoAz/FitPass/blob/main/LICENSE) file for details.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-<a name="license"></a>
+
 
 ---
 
