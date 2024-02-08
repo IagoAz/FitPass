@@ -66,11 +66,10 @@
 
 <details>
   <summary>Linux Comands</summary>
-
-Clone o repositório:
+  Clone o repositório:
 
 ```bash
-   git clone https://github.com/IagoAz/FitPass.git
+git clone https://github.com/IagoAz/FitPass.git
 ```
 Navegue até o diretório do projeto:
 
@@ -96,6 +95,74 @@ Isso deve abrir o seu site localmente no navegador.
 
 Lembre-se de que, enquanto o servidor PHP estiver em execução, o terminal ficará ocupado. Você pode abrir um novo terminal para continuar trabalhando ou deixar o terminal atual aberto para monitorar logs e mensagens do servidor PHP. Se precisar encerrar o servidor, você pode pressionar Ctrl+C no terminal onde o servidor está em execução. Isso encerrará o servidor PHP.
 
+## XAMPP
+
+Baixe o <a href="https://www.apachefriends.org/pt_br/download.html">XAMPP:</a>
+
+Clique com o botão direito no arquivo e selecionar a opção que torna o arquivo executável.
+<br>
+Navegue até o diretório do arquivo:
+
+```bash
+cd Downloads/
+```
+Para alterar as permissões para o instalador.
+
+```bash
+chmod 755 xampp-linux-*-installer.run
+```
+Para executar o instalador.
+
+```bash
+sudo ./xampp-linux-*-installer.run
+```
+Após o processo de instalação, o Terminal que você digitou os comandos será o "programa em execução", se fecha-lo, irá encerrar os serviços do XAMPP.
+
+Para executa-lo novamente você precisar digitar esses comando no Terminal:<br/>
+Para ir ao destino padrão do arquivo
+```bash
+cd /opt/lampp/
+```
+
+Para rodar o programa
+```bash
+sudo ./manager-linux-x64.run
+```
+Na aba  `Manage Servers` deixaremos rodando os Serviços `MySQL Database` e `Apache Web Server`
+
+
+Coloque a pasta <a href="https://github.com/IagoAz/FitPass">AAP_SITE</a> na pasta `htdocs` clicando em `Open Application Folder`
+
+Você agora pode entrar nesse link local que entrará na página.
+http://localhost/AAP_SITE/index.php
+
+Para conectar no Banco entre no <a href="http://localhost/phpmyadmin/index.php">phpmyadmin</a>.</br>
+Clique uma vez em `New` e depois em `Import` e estão coloque o arquivo <a href="https://github.com/IagoAz/FitPass/blob/main/BancoDeDados/aap_fitpass.sql">aap_fitpass</a>.
+
+Pronto! Você agora pode navegar na Fitpass.
+
+<details>
+  <summary>Problemas que podem acontecer</summary>
+
+Talvez apareça este problema quando você clicar no `Import`
+
+*Column count of mysql.proc is wrong. Expected 21, found 20. Created with MariaDB 100108, now running 100432. Please use mysql_upgrade to fix this error*
+
+Para resolver este problema basta executar essas duas linha de comando no terminal:
+
+Para ir ao diretório onde o XAMPP está instalado.
+```bash
+cd /opt/lampp
+```
+
+Isso assume que o usuário do MySQL é "root". Se você estiver usando um usuário diferente, substitua "root" pelo nome de usuário correto.
+```bash
+sudo ./bin/mysql_upgrade -u root -p
+```
+
+Caso este problema venha acontecer você precisaram excluir o Bando de dados aap_fitpass no <a href="http://localhost/phpmyadmin/index.php">phpmyadmin</a>. 
+Clique na aba `SQL` no topo da página e digite no campo `DROP DATABASE aap_fitpass;`, após isso clique no `Go`.
+</details>
 </details>
 
 <details>
