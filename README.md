@@ -66,7 +66,7 @@
 
 ## 📑 How To Use <a name="how-to-use"></a>
 
-Navegar pelo FitPass é uma tarefa simplese. Siga os passos abaixo para começar a utilizar o FitPass:
+Navegar pelo FitPass é uma tarefa simples. Siga os passos abaixo para começar a utilizar o FitPass:
 
 ### Prerequisites
 
